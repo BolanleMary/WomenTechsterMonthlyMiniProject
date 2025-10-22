@@ -24,20 +24,20 @@
             <li>Project</li>
             <li>Main Items</li>
             <li>
-              <select>
+              <select class="select">
                 <option>Help</option>
               </select>
             </li>
           </ul>
 
           <form class="placeOrderList">
-            <select>
+            <select class="select">
               <option>English,USD</option>
             </select>
 
-            <select>
-              <option>Ship to</option>
-            </select>
+            <select class="select">
+              <option>Ship to</option></select
+            ><img class="flag" src="./assets/flag.png" alt="flag" />
           </form>
         </div>
       </section>
@@ -51,12 +51,11 @@
       </section>
       <!-- main section -->
       <section class="mainSection">
-        <form class="formlist">
-
+        <div class="formlist">
           <!-- First Category -->
           <div class="line">
-             <p class="title">Category</p>  
-             <li>Mobile accessory</li>
+            <p class="title">Category</p>
+            <li>Mobile accessory</li>
             <li>Electronic</li>
             <li>SmartPhone</li>
             <li>Modern Tech</li>
@@ -64,101 +63,133 @@
           </div>
 
           <!-- Second Category -->
-           <div class="line">
-             <p class="title">Brands</p> 
-          <label class="listphone">
-            <label>
-              <input type="checkbox" />
-              Sumsung  </label>
-              
-           
-            <label>
-               <input type="checkbox" />
-               Apple</label>
-              
-              
-            
-            <label>
-              <input type="checkbox" />
-              Huwai
+          <div class="line">
+            <p class="title">Brands</p>
+            <label class="listphone">
+              <label>
+                <input type="checkbox" />
+                Sumsung
+              </label>
+
+              <label>
+                <input type="checkbox" />
+                Apple</label
+              >
+
+              <label>
+                <input type="checkbox" />
+                Huwai
+              </label>
+              <label>
+                <input type="checkbox" />
+                Pocco
+              </label>
+              <label>
+                <input type="checkbox" />
+                Lenovo
+              </label>
             </label>
-            <label>
-              <input type="checkbox" />
-              Pocco
-            </label>
-            <label>
-              <input type="checkbox" />
-              Lenovo
-            </label>
-            
-          </label>
-          <p class="seeAll">See all</p>
+            <p class="seeAll">See all</p>
           </div>
 
-        <!-- Third Category -->
-         <div class="line">
-             <p class="title">Features</p> 
-          <label class="listphone">
-            <label>
-              <input type="checkbox" />
-              Metallic
-            </label>
-            <label>
-              <input type="checkbox" />
-              Plastic Cover
-            </label>
-            <label>
-              <input type="checkbox" />
-              8GB Ram
-            </label>
-            <label>
-              <input type="checkbox" />
-              Super power
-            </label>
-            <label>
-              <input type="checkbox" />
-              Large Memory
-            </label>
-          </label>
-          <p class="seeAll">See all</p>
-         </div>
-         <!-- Forth category -->
+          <!-- Third Category -->
           <div class="line">
-             <p class="title">Price range</p> 
-             <div class="priceRange">
+            <p class="title">Features</p>
+            <label class="listphone">
+              <label>
+                <input type="checkbox" />
+                Metallic
+              </label>
+              <label>
+                <input type="checkbox" />
+                Plastic Cover
+              </label>
+              <label>
+                <input type="checkbox" />
+                8GB Ram
+              </label>
+              <label>
+                <input type="checkbox" />
+                Super power
+              </label>
+              <label>
+                <input type="checkbox" />
+                Large Memory
+              </label>
+            </label>
+            <p class="seeAll">See all</p>
+          </div>
+          <!-- Forth category -->
+          <div class="line">
+            <p class="title">Price range</p>
+            <div class="priceRange">
               <div class="firstLine"></div>
-              <div class="circle"> </div>
+              <div class="circle"></div>
               <div class="secondLine"></div>
-              <div class=""></div>
+              <div class="circle"></div>
               <div class="thirdLine"></div>
+            </div>
 
               <form>
-                <label >
+                <div class="priceInputs">
+                <label>
                   Min
-                  <input class="range" type="number" placeholder="0"/>
+                  <input class="range" type="number" placeholder="0" />
                 </label>
                 <label>
                   Max
-                  <input class="range" type="number" placeholder="99999"/>
-                </label> <br>
-                <div>
-                 <button class="apply">Aply</button>
-                 </div>
-                      </form>
-                   
-                 </div>
-             </div>
+                  <input class="range" type="number" placeholder="99999" />
+                </label>
+                </div>
 
+                <div>
+                  <button class="apply">Apply</button>
+                </div>
+              </form>
+            </div>
              <!-- Fifth Category -->
-                      <!-- <div class="line">
-             <p class="title">Price range</p>   -->
-        </form>
+          <div class="line">
+            <p class="title">Condition</p>
+            <form class="radio">
+              <label>
+                <input type="radio"/>
+              Any  
+            </label>
+            <label>
+              <input type="radio"/> Refurbished 
+            </label>
+            <label>
+              <input type="radio"/> Brand New
+              </label>
+              <label>
+              <input type="radio"/> Old
+              </label>
+            </form>
+          </div>
+        
+        <!-- Six Category -->
+           <div class="line">
+            <p class="title">Ratings</p>
+            <form>
+                  <label class="checkStar">
+                <input type="checkbox"/> <aside class="fiveStars"></aside>
+                              </label>
+
+                               <label class="checkStar">
+                <input type="checkbox"/> <aside class="fourStars"></aside>
+                              </label>
+              
+            </form>
+           </div>  
+          </div>
+         
+
         <!-- Product Section -->
         <section class="products">
           <div class="verified">
-            <aside>12,911 items in <b>Mobile accessory</b></aside>
+            <aside class="text">12,911 items in <b>Mobile accessory</b></aside>
             <div class="verifiedFeature">
-              <p>Verified</p>
+              <p>Verified only</p>
               <select class="feature">
                 <option class="feature">feature</option>
               </select>
@@ -166,7 +197,7 @@
           </div>
 
           <div class="product-card">
-            <img src="../assets/CamonPhone.png" alt="Product Image" />
+            <img src="./assets/CamonPhone.png" alt="Product Image" />
             <div class="product-info">
               <p class="textName">Canon Camera EOS 2000, Black 10x zoom</p>
               <p class="price">$998.00 <span>$1128.00</span></p>
@@ -188,10 +219,10 @@
           </div>
           <!-- Second Card -->
           <div class="product-card otherCard">
-            <img src="../assets/CardTwo.png" alt="Product Image" />
+            <img src="./assets/CardTwo.png" alt="Product Image" />
             <div class="product-info">
               <p class="textName">GoPro HERO6 4K Action Camera - Black</p>
-              <p class="price">$998.00 </p>
+              <p class="price">$998.00</p>
               <div class="rating">
                 <!-- <img src="../assets/ratedStar.png" class="ratedStar"> -->
                 <div class="dot"></div>
@@ -200,8 +231,9 @@
                 <div class="freeShipping">Free Shipping</div>
               </div>
               <p>
-                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip<br>
-                 ex ea commodo consequat. Duis aute irure dolor in reprehenderit 
+                Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                laboris nisi ut aliquip<br />
+                ex ea commodo consequat. Duis aute irure dolor in reprehenderit
               </p>
               <p class="viewDetails">View Details</p>
               <!-- <button>Add too Cart</button> -->
@@ -209,11 +241,11 @@
           </div>
 
           <!-- Third Card -->
-           <div class="product-card otherCard">
-            <img src="../assets/CamonPhone.png" alt="Product Image" />
+          <div class="product-card otherCard">
+            <img src="./assets/CamonPhone.png" alt="Product Image" />
             <div class="product-info">
               <p class="textName">GoPro HERO6 4K Action Camera - Black</p>
-              <p class="price">$998.00 </p>
+              <p class="price">$998.00</p>
               <div class="rating">
                 <!-- <img src="../assets/ratedStar.png" class="ratedStar"> -->
                 <div class="dot"></div>
@@ -222,8 +254,9 @@
                 <div class="freeShipping">Free Shipping</div>
               </div>
               <p>
-                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip<br>
-                 ex ea commodo consequat. Duis aute irure dolor in reprehenderit 
+                Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                laboris nisi ut aliquip<br />
+                ex ea commodo consequat. Duis aute irure dolor in reprehenderit
               </p>
               <p class="viewDetails">View Details</p>
               <!-- <button>Add too Cart</button> -->
@@ -231,11 +264,11 @@
           </div>
 
           <!-- Fourth Product Card -->
-           <div class="product-card otherCard">
-            <img src="../assets/CamonPhone.png" alt="Product Image" />
+          <div class="product-card otherCard">
+            <img src="./assets/CamonPhone.png" alt="Product Image" />
             <div class="product-info">
               <p class="textName">GoPro HERO6 4K Action Camera - Black</p>
-              <p class="price">$998.00 </p>
+              <p class="price">$998.00</p>
               <div class="rating">
                 <!-- <img src="../assets/ratedStar.png" class="ratedStar"> -->
                 <div class="dot"></div>
@@ -244,8 +277,9 @@
                 <div class="freeShipping">Free Shipping</div>
               </div>
               <p>
-                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip<br>
-                 ex ea commodo consequat. Duis aute irure dolor in reprehenderit 
+                Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                laboris nisi ut aliquip<br />
+                ex ea commodo consequat. Duis aute irure dolor in reprehenderit
               </p>
               <p class="viewDetails">View Details</p>
               <!-- <button>Add too Cart</button> -->
@@ -253,11 +287,11 @@
           </div>
 
           <!-- Fifth Product Card -->
-           <div class="product-card otherCard">
-            <img src="../assets/CamonPhone.png" alt="Product Image" />
+          <div class="product-card otherCard">
+            <img src="./assets/CamonPhone.png" alt="Product Image" />
             <div class="product-info">
               <p class="textName">GoPro HERO6 4K Action Camera - Black</p>
-              <p class="price">$998.00 </p>
+              <p class="price">$998.00</p>
               <div class="rating">
                 <!-- <img src="../assets/ratedStar.png" class="ratedStar"> -->
                 <div class="dot"></div>
@@ -266,8 +300,9 @@
                 <div class="freeShipping">Free Shipping</div>
               </div>
               <p>
-                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip<br>
-                 ex ea commodo consequat. Duis aute irure dolor in reprehenderit 
+                Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                laboris nisi ut aliquip<br />
+                ex ea commodo consequat. Duis aute irure dolor in reprehenderit
               </p>
               <p class="viewDetails">View Details</p>
               <!-- <button>Add too Cart</button> -->
@@ -277,10 +312,10 @@
           <!-- Sixth Product Card -->
 
           <div class="product-card otherCard">
-            <img src="../assets/CamonPhone.png" alt="Product Image" />
+            <img src="./assets/CamonPhone.png" alt="Product Image" />
             <div class="product-info">
               <p class="textName">GoPro HERO6 4K Action Camera - Black</p>
-              <p class="price">$998.00 </p>
+              <p class="price">$998.00</p>
               <div class="rating">
                 <!-- <img src="../assets/ratedStar.png" class="ratedStar"> -->
                 <div class="dot"></div>
@@ -289,8 +324,9 @@
                 <div class="freeShipping">Free Shipping</div>
               </div>
               <p>
-                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip<br>
-                 ex ea commodo consequat. Duis aute irure dolor in reprehenderit 
+                Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                laboris nisi ut aliquip<br />
+                ex ea commodo consequat. Duis aute irure dolor in reprehenderit
               </p>
               <p class="viewDetails">View Details</p>
               <!-- <button>Add too Cart</button> -->
@@ -299,9 +335,66 @@
         </section>
       </section>
     </main>
-    <article>
-      <h3>Subscribe on our newsletter </h3>
-      <p>Get daily news on upcoming offers from many suppliers all over the world</p>
-    </article>
+    <footer>
+      <article>
+        <h3>Subscribe on our newsletter</h3>
+        <p>
+          Get daily news on upcoming offers from many suppliers all over the
+          world
+        </p>
+        <form>
+          <input type="email" class="email" placeholder="Email" />
+          <button class="subscribe">Subscribe</button>
+        </form>
+      </article>
+      <section class="footer">
+        <div class="brand">
+          <img src="" />
+          <p>
+            Best information about the company <br />
+            gies here but now lorem ipsum is
+          </p>
+          <div class="socials"></div>
+        </div>
+
+        <div class="about">
+          <h3 class="footerHeadings">About</h3>
+          <p>About Us</p>
+          <p>Find store</p>
+          <p>Category</p>
+          <p>Blog</p>
+        </div>
+
+        <div class="about">
+          <h3 class="footerHeadings">Partnership</h3>
+          <p>About Us</p>
+          <p>Find store</p>
+          <p>Category</p>
+          <p>Blog</p>
+        </div>
+
+        <div class="about">
+          <h3 class="footerHeadings">information</h3>
+          <p>Health center</p>
+          <p>Money Refund</p>
+          <p>Shipping</p>
+          <p>Contact us</p>
+        </div>
+
+        <div class="about">
+          <h3 class="footerHeadings">For Users</h3>
+          <p>Login</p>
+          <p>Register</p>
+          <p>Setting</p>
+          <p>My Orders</p>
+        </div>
+
+        <div class="about">Get App</div>
+      </section>
+      <div class="last">
+        <p>2023 Ecommerce</p>
+        <p>English</p>
+      </div>
+    </footer>
   </body>
 </html>

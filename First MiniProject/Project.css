@@ -17,6 +17,31 @@
   /* justify-content:space-around; */
 }
 
+.select {
+  border: none;
+  outline: none;
+  /* padding-right: 12px; */
+  font-family: Inter;
+font-weight: 500;
+font-style: Medium;
+font-size: 16px;
+line-height: 22px;
+letter-spacing: 0px;
+position: relative;
+
+}
+
+.flag{
+  width: 22px;
+height: 16px;
+top: 21px;
+left: 1257px;
+position: absolute;
+opacity: 1;
+
+}
+
+
 .listCateogory {
   display: flex;
   list-style: none;
@@ -83,46 +108,67 @@ margin-bottom: 15px;
 .firstLine{
 border: 1px solid  #AFD0FF;
 background-color: #AFD0FF ;
-/* width: 230px; */
+width: 15%;
 height: 4px;
-/* opacity: 1;
-top: 8px; */
+opacity: 1;
+top: 8px;
 border-radius: 2px;
 }
 
 .priceRange{
   display: flex;
 }
-/* .circle{
-  border: 1px solid white;
+.circle{
+  border: 1px solid #AFD0FF;
   border-radius: 50%;
   width: 20px;
   height: 20px;
-} */
+  background-color: white ;
+} 
 
-/* .secondLine{
-border: 1px solid  #AFD0FF;
-background-color: #AFD0FF ;
-/* width: 230px; 
+ .secondLine{
+border: 1px solid  #0D6EFD;
+background-color: #0D6EFD;
+width: 35%; 
 height: 4px;
 opacity: 1;
 top: 8px;
 border-radius: 2px;
-} */
+}
 
+.thirdLine{
+border: 1px solid  #AFD0FF;
+background-color: #AFD0FF ;
+width: 30%;
+height: 4px;
+opacity: 1;
+top: 8px;
+border-radius: 2px;
+}
+
+.priceInputs {
+  display: flex;              /* ✅ puts labels side by side */
+   align-items: center;        /*vertically aligns inputs with labels */
+  gap: 9px;                  /* adds spacing between min and max */
+  margin-top: 10px;
+}
 .range{
   width: 111px;
 height: 40px;
-opacity: 1;
 border-width: 1px;
 border-radius: 6px;
+padding-left: 10px
 
 }
  
 .apply{
-  width: 228;
-height: 40;
-angle: 0 deg;
+  display: block;
+  width: 228px;
+height: 40px;
+background-color: white;
+color: #0D6EFD;
+margin-bottom: 20px;
+
 opacity: 1;
 top: 1192px;
 left: 134px;
@@ -132,6 +178,37 @@ padding-left: 16px;
 gap: 10px;
 border-radius: 6px;
 
+}
+
+.radio{
+  display: flex;
+  flex-direction: column;
+}
+
+/* .ratedStar{
+  width: 16px;
+  height: 15px;
+  left: 32px;
+  background-repeat: repeat-x;
+} */
+
+.fiveStars {
+  width: 80px; /* Adjust based on number of stars */
+  height: 20px;
+  background: url('./assets/ratedStar.png') repeat-x;
+  background-size: 16px 15px;
+}
+
+.fourStars {
+  width: 64px; /* Adjust based on number of stars */
+  height: 20px;
+  background: url('./assets/ratedStar.png') repeat-x;
+  background-size: 16px 15px;
+}
+
+.checkStar{
+  display: flex;
+  flex-direction: row;
 }
 
 
@@ -144,16 +221,42 @@ border-radius: 6px;
 .verified {
   display: flex;
   border: 1px solid #e0e0e0;
-  border-width: 200;
-  padding-left: 19px;
+  /* padding-left: 19px;
   padding-top: 22px;
-  padding-bottom: 21px;
-  gap: 237px;
-  background-color: white
+  padding-bottom: 21px; */
+  
+  background-color: white;
+  /* height: 49px; */
+  box-sizing: border-box;
 }
 .verifiedFeature {
   display: flex;
+    padding: 22px 0px 21px 19px ;
+
+  
+  }
+
+ .text{
+  padding: 22px 0px 21px 19px ;
+  
+
 }
+
+  .feature{
+    padding: 11px 62px 10px 10px;
+    /* width: 94px; */
+    margin-top: -10px;
+    margin-bottom: -10px;
+    font-family: Inter;
+font-weight: 400;
+font-size: 16px;
+leading-trim: NONE;
+line-height: 100%;
+letter-spacing: 0px;
+
+    box-sizing: border-box;
+    
+  }
 .mainSection {
   display: flex;
   background-color:  #f7fafc;
@@ -241,4 +344,66 @@ letter-spacing: 0px;
 }
 .otherCard{
   margin-top: 10px;
+}
+
+/* Footer Article */
+article{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 38px;
+  background-color: #EFF2F4;
+
+}
+
+article h3{
+  color:  #1C1C1C;
+;
+}
+article p{
+  color:  #606060;
+;
+}
+
+article form{
+  margin-top: 21px;
+}
+.email{
+  padding: 11px 68px 10px 36px;
+  border: 1px solid #DEE2E7;
+}
+
+.subscribe{
+  background-color:  #127FFF ;
+border-radius: 6px;
+  padding:10.5px;
+ 
+  margin-left:8px
+}
+
+/* Footer */
+
+.footer{
+  display: flex;
+  gap: 61px;
+  padding-left: 129px;
+}
+
+.brand{
+  margin-top: 52px;
+}
+
+.about{
+  margin-top: 40px;
+}
+
+.last{
+  background-color: #EFF2F4;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 128px;
+  padding-right: 136px;
+  padding-top: 23px;
+  padding-bottom: 21px;
 }
