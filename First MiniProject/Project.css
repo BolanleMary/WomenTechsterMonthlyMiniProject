@@ -18,6 +18,12 @@
   padding-bottom: 24px;
 }
 
+.firstHeader{
+  display: flex;
+  justify-content: space-between;
+
+}
+
 .linkList {
   display: flex;
   gap: 23px;
@@ -93,17 +99,79 @@
 
 /* next section */
 
+.allCategory{
+  display: flex;
+  flex-direction: row;
+  height: 56px;
+  border: 1px solid #f7fafc;
+  align-items: center;
+  justify-content: space-between;
+ 
+  
 
+}
+
+.categoryList{
+  display: flex;
+  list-style: none;
+  gap: 25px;
+   margin-left: 130px;
+
+}
+.categoryImage{
+  display: flex;
+  gap: 6px;
+}
+
+.categoryImage img{
+  width: 18px;
+height: 12px;
+margin-top: 6px;
+}
+
+.helpCategory{
+  border: none;
+  width: 61px;
+}
+
+.categoryForm{
+  display: flex;
+  margin-right: 128px;
+   position: relative;
+
+}
+
+.englishCategory{
+  border: none;
+  width: 124px;
+}
+.shipCategory{
+  margin-left: 32px;
+  width: 115px;
+  border: none;
+ 
+}
+.flag{
+  width: 22px;
+height: 16px;
+position: absolute;
+right: 30px;
+top: 5px;
+}
 /* third section */
 .listClothing {
   display: flex;
   list-style: none;
-  gap: 20px;
+  gap: 10px;
   background-color: #f7fafc;
   padding: 20px;
   padding-left: 133px;
   color: #8b96a5;
 }
+.clothingArrow{
+  display: flex;
+}
+
 /* main section */
 
 .mainSection {
@@ -118,6 +186,8 @@
   /* width: 35%; */
   color: #505050;
 }
+
+
 .line {
   /* border: 1px solid #DEE2E7 */
   border-top: 1px solid #dee2e7;
@@ -131,6 +201,14 @@
   letter-spacing: 0px;
   margin-top: 14px;
   margin-bottom: 15px;
+}
+.arrowsUp{
+  width: 24px;
+height: 24px;
+margin-top:10px;
+top: 12px;
+left: 206px;
+
 }
 .formlist li {
   list-style: none;
@@ -301,36 +379,66 @@
 .verified {
   display: flex;
   border: 1px solid #e0e0e0;
-  /* padding-left: 19px;
-  padding-top: 22px;
-  padding-bottom: 21px; */
-
+  border-radius: 6px;
+  gap: 160px;
+   align-items: center;
   background-color: white;
-  /* height: 49px; */
+  height: 62px;
+  width: 850px;
   box-sizing: border-box;
 }
+
+
 .verifiedFeature {
   display: flex;
+  /* padding: 22px 0px 21px 19px; */
+}
+
+.verifiedFeature label{
   padding: 22px 0px 21px 19px;
 }
 
+.verified label{
+  padding-right: 16px;
+}
 .text {
   padding: 22px 0px 21px 19px;
 }
 
-.feature {
-  padding: 11px 62px 10px 10px;
-  /* width: 94px; */
-  margin-top: -10px;
-  margin-bottom: -10px;
-  font-family: Inter;
-  font-weight: 400;
-  font-size: 16px;
-  leading-trim: NONE;
-  line-height: 100%;
-  letter-spacing: 0px;
 
-  box-sizing: border-box;
+.feature {
+  width: 172px;
+height: 40px;
+margin-top: 12px;
+/* border: 1px solid #8b96a5; */
+box-sizing: border-box;
+
+}
+
+.verifiedIcon{
+  width: 38px;
+height: 40px;
+opacity: 1;
+top: 8px;
+left: 7px;
+margin-top: 12px;
+
+}
+.verifiedIcon1{
+   border: 1px solid #8b96a5;
+   padding: 4px 3px;
+  padding-bottom: 3px;
+  border-radius:5px ;
+  margin-left: 17px;
+}
+
+.verifiedIcon2{
+  border: 1px solid #f7fafc;
+  background-color: #DEE2E7 ;
+  border-bottom-right-radius:6px ;
+  border-top-right-radius: 6px;
+  padding: 8px 8px 7px 7px;
+  padding-bottom: 3px;
 }
 
 .products {

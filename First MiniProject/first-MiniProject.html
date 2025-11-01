@@ -52,14 +52,52 @@
       </nav>
     </header>
     <main>
-     <section></section>
+      <!-- second section -->
+      
+     <section class="allCategory">
+<ul class="categoryList">
+  <li class="categoryImage">
+    <img src="./assets/threeBar.svg"/>
+    <p>All Category</p>
+  </li>
+  <li>Hot offers</li>
+  <li>Gift boxes</li>
+  <li>Project</li>
+  <li>Menu Items</li>
+  <select class="helpCategory">
+    <option>Help</option>
+  </select>
+       
+      </ul>
+       <form class="categoryForm">
+        <select class ="englishCategory"
+        > 
+          <option>English, USD</option>
+        </select>
+        <select class="shipCategory">
+          <option>Ship to</option>
+        </select>
+          <img src="./assets/flag.png" class="flag"/>
+          
+                 </form>
       </section>
       <!-- third -->
       <section>
         <ul class="listClothing">
-          <li>Home</li>
+          <div class="clothingArrow">
+          <li>Home</li> 
+          <img src="./assets/arrowRight.svg" alt="arrowRight"/>
+          </div>
+
+          <div class="clothingArrow">
           <li>Clothings</li>
+          <img src="./assets/arrowRight.svg" alt="arrowRight"/>
+        </div>
+
+        <div class="clothingArrow">
           <li>Men's Wear</li>
+          <img src="./assets/arrowRight.svg" alt="arrowRight"/>
+        </div>
           <li>Summer Clothing</li>
         </ul>
       </section>
@@ -68,7 +106,10 @@
         <div class="formlist">
           <!-- First Category -->
           <div class="line">
-            <p class="title">Category</p>
+            <div class="firstHeader">
+              <p class="title">Category</p>
+              <img src ="./assets/arrowsUp.svg" alt = "Arrow Up" class="arrowsUp"/>
+              </div>
             <li>Mobile accessory</li>
             <li>Electronic</li>
             <li>SmartPhone</li>
@@ -78,7 +119,10 @@
 
           <!-- Second Category -->
           <div class="line">
+            <div class="firstHeader">
             <p class="title">Brands</p>
+            <img src="./assets/arrowsUp.svg" alt = "Arrow Up" class="arrowsUp" />
+            </div>
             <label class="listphone">
               <label>
                 <input type="checkbox" />
@@ -108,7 +152,10 @@
 
           <!-- Third Category -->
           <div class="line">
+            <div class="firstHeader">
             <p class="title">Features</p>
+            <img src ="./assets/arrowsUp.svg" alt = "Arrow Up" class="arrowsUp"/>
+            </div>
             <label class="listphone">
               <label>
                 <input type="checkbox" />
@@ -135,7 +182,10 @@
           </div>
           <!-- Forth category -->
           <div class="line">
+            <div class="firstHeader">
             <p class="title">Price range</p>
+            <img src="./assets/arrowsUp.svg" alt = "Arrow Up" class="arrowsUp" />
+            </div>
             <div class="priceRange">
               <div class="firstLine"></div>
               <div class="circle"></div>
@@ -163,7 +213,10 @@
           </div>
           <!-- Fifth Category -->
           <div class="line">
+            <div class="firstHeader">
             <p class="title">Condition</p>
+            <img src="./assets/arrowsUp.svg" alt = "Arrow Up" class="arrowsUp" />
+            </div>
             <form class="radio">
               <label>
                 <input type="radio" />
@@ -177,7 +230,10 @@
 
           <!-- Six Category -->
           <div class="line">
+<div class="firstHeader">
             <p class="title">Ratings</p>
+            <img src="./assets/arrowsUp.svg" alt = "Arrow Up" class="arrowsUp" />
+           </div>
             <form>
               <label class="checkStar">
                 <input type="checkbox" />
@@ -216,10 +272,16 @@
           <div class="verified">
             <aside class="text">12,911 items in <b>Mobile accessory</b></aside>
             <div class="verifiedFeature">
-              <p>Verified only</p>
-              <select class="feature">
-                <option class="feature">feature</option>
+              <label>
+                <input type="checkbox"/>
+                Verified only
+              </label>
+              
+              <select class=" feature ">
+                <option class="feature ">Feature</option>
               </select>
+              <img src ="./assets/verifiedIcon1.svg" class=" verifiedIcon verifiedIcon1"/>
+              <img src="./assets/verifiedIcon2.svg" class="verifiedIcon verifiedIcon2"/>
             </div>
           </div>
 
